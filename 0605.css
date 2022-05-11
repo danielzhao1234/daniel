@@ -1,0 +1,17 @@
+div
+{width: 100px;
+height: 100px;
+background-color: red;
+
+
+animation-name: example;
+animation-duration: 4s;
+
+}
+
+
+div:hover{
+    width: 200px;
+    height: 200px;
+    transition-delay: 2s;
+}
