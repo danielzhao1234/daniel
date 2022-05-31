@@ -1,0 +1,123 @@
+
+    header {display: flex;
+        justify-content:center;
+       margin: 0px; 0px;
+      background-color: blue;}
+
+      footer{
+      margin: 150px;0px;}
+       
+  .home {text-align: center;
+    margin: 0px 0px;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 20px;
+ }
+       
+
+      .navbar {
+        display: flex;
+        background-color: #333;
+       
+      }
+      
+      .navbar a{color: white;
+      padding: 14px 160px;
+      text-decoration: none;
+      text-align: center;
+      }
+      
+      .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+        margin-right: 0%;
+      }
+  
+
+      .content {
+        display: flex;
+     text-align-last: center;
+      
+        flex-direction: row;
+        font-family:"Audiowide", sans-serif;
+      }
+   /* section Left */
+    .left {flex: 33.3%;
+   
+   padding: 20px;
+   margin-top: 40px;
+}
+
+   .middle {flex: 33.3%;
+    
+    
+    padding: 20px;
+    margin-top: 40px
+    }
+   
+   /* section right */
+   .right {flex: 33.3%;
+ 
+   padding: 20px;
+   margin-top: 40px
+  }
+   
+   /* image place holder */
+   .image {
+       width: 10px;
+   height: 60px;
+   padding: 10px;
+   margin-left: 60px;
+ 
+   
+   }
+
+   @media screen and (max-width: 768px) {
+   
+    .navbar,
+    .content 
+    {
+        flex-direction: column;}
+    }
+
+    
+
+
+    input[type="text"], input[type="email"] 
+{   border: solid;
+   
+    
+}
+
+form1, form2, form3, form4, form5 {display: flex;
+   
+    
+  justify-content: center;
+
+
+}
+
+form3, form4, form5 {padding-left: 50px;}
+
+#countDisplay{font-size: 10px;
+margin: 10px ;}
+
+.Note {
+  margin-top: 100px;
+ text-align: center;
+ font-size: small;
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+       
